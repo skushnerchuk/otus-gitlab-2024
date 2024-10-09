@@ -1,6 +1,6 @@
 Для создания раннера будем использовать отдельную виртуальную машину и подключать его к уже существующему инстансу GitLab.
 
-![create-runner](/home/sergey/dev/otus/otus-gitlab-2024/images/create-runner.png)
+![create-runner](./images/create-runner.png)
 
 После создания был создан конфигурационный файл:
 
@@ -33,7 +33,7 @@
 
 и раннер стал доступен для сборки проектов в GitLab:
 
-![runners](/home/sergey/dev/otus/otus-gitlab-2024/images/runners.png)
+![runners](./images/runners.png)
 
 Проверим его работу, выполнив простой конвейер:
 
@@ -47,4 +47,4 @@ test:
     - echo "Test runner"
 ```
 
-![pipeline](/home/sergey/dev/otus/otus-gitlab-2024/images/pipeline.png)
+![pipeline](./images/pipeline.png)
