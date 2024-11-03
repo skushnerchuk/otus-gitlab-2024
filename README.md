@@ -2,7 +2,7 @@
 
 ```yaml
 variables:
-  BUILD_IMAGE: golang:1.23 # Имя образа, на котолром будет собираться приложение
+  BUILD_IMAGE: golang:1.23 # Имя образа, на котором будет собираться приложение
 
 stages:
   - test
